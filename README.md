@@ -27,11 +27,17 @@ python train_lightgbm.py
 # 📌 Features Used
 
 Pclass (Passenger class)
+
 Sex (Gender)
+
 Age (Filled missing values with median)
+
 SibSp (No. of siblings/spouses aboard)
+
 Parch (No. of parents/children aboard)
+
 Fare (Ticket fare)
+
 Embarked (Port of embarkation, filled missing values with mode)
 
 # 📜 Explanation with SHAP
@@ -41,7 +47,9 @@ This project utilizes SHAP (SHapley Additive exPlanations) to interpret the mode
 # 📌 Future Enhancements
 
 Try different models (XGBoost, CatBoost, etc.)
+
 Feature engineering for better performance
+
 Deploy as a web app (Flask/Django)
 
 # 👨‍💻 Author
